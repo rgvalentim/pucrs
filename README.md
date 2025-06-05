@@ -1,5 +1,5 @@
 # pucrs
-Trabalho da discuplina de Introdução a Sistemas Web
+Fase 1 da discuplina de Introdução a Sistemas Web
 
 # Minimercado Web
 
