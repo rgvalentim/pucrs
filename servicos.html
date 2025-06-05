@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Minimercado Serviços</title>
+</head>
+<body>
+	<header>
+	  <img src="logo.png" alt="Logo do site" width="100" />
+	  <h1 align="center">Minimercado Web - Serviços</h1>
+  		<nav>
+    		<ul>
+      			<li><a href="home.html">Início</a></li>
+      			<li><a href="frutas.html">Frutas & Verduras</a></li>
+      			<li><a href="alimentos.html">Alimentos</a></li>
+                <li><a href="higiene.html">Higiene & Limpeza</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+    		</ul>
+  		</nav>
+	</header>
+  <div>
+   	<h4 align="center">Escolha um dos nossos serviços disponíveis</h4>
+      <p>
+          <input type="checkbox" name="servico1" value="Retirada Local"> 
+          Retirada Local
+    </p>
+    <p>Selecione esste tipo de entrega se deseja retirar suas compras aqui em nossa loja. Valor: R$ 0,00</p>
+      <p>
+          <input type="checkbox" name="servico2" value="Tele-entrega"> Tele-entrega
+      </p>
+      <p>Selecione esse tipo de entrega se deseja que levemos suas compras até você. Valor: R$ 30,00</p>
+  </div>
+  <div>
+  <h4 align="center">Preencha o endereço de entrega abaixo em caso de retirada</h4>
+  <form action="/enviar" method="post">
+      <label for="nome">Nome do destinatário:</label><br>
+      <input type="text" id="nome" name="nome"><br><br>
+    
+      <label for="endereco">Endereço de entrega:</label><br>
+      <input type="text" id="endereco" name="endereco"><br><br>
+      
+      <label for="telefone">Telefone:</label><br>
+      <input type="text" id="telefone" name="telefone"><br><br>
+    
+      <label for="referencia">Ponto de referência:</label><br>
+      <textarea id="referencia" name="referencia" rows="4" cols="40"></textarea><br><br>
+    
+      <input type="submit" value="Enviar">
+   </form>
+  </div>
+  <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+      <div>
+        <h3 align="center">Minimercado Web</h3>
+        <p>Oferecemos frutas, verduras, produtos alimentícios e de higiene com qualidade e economia para sua casa.</p>
+      </div>
+    
+      <div>
+        <h4>Contato</h4>
+        <p>Endereço: Rua das Flores, 123 - Centro</p>
+        <p>Telefone: (81) 99999-9999</p>
+        <p>Email: <a href="mailto:contato@minimercadoweb.com">contato@minimercadoweb.com</a></p>
+      </div>
+    
+      <div>
+        <h4>Links úteis</h4>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="frutas.html">Frutas & Verduras</a></li>
+          <li><a href="alimentos.html">Alimentos</a></li>
+          <li><a href="higiene.html">Higiene & Limpeza</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+        </ul>
+      </div>
+    
+      <div>
+        <p>&copy; 2025 Minimercado Web. Todos os direitos reservados.</p>
+      </div>
+	</footer>
+</body>
+</html>
