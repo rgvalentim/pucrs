@@ -1,5 +1,5 @@
 # pucrs
-Fase 1 da discuplina de Introdução a Sistemas Web
+Fase 1 da disciplina de Introdução a Sistemas Web
 
 # Minimercado Web
 
