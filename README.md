@@ -11,7 +11,7 @@ Minimercado Web é um site estático simples que simula a presença online de um
 
 O site é composto pelas seguintes páginas HTML:
 
-1.  **`home.html`**:
+1.  **`index.html`**:
     * Título da página: "Minimercado Home".
     * Serve como a página inicial do site.
     * Apresenta o título principal "Minimercado Web".
@@ -70,7 +70,7 @@ Todas as páginas compartilham uma estrutura de cabeçalho e rodapé consistente
 
 ## Como Visualizar
 
-Para visualizar o site, basta abrir qualquer um dos arquivos `.html` (preferencialmente `home.html` para começar) em um navegador web.
+Para visualizar o site, basta abrir qualquer um dos arquivos `.html` (preferencialmente `index.html` para começar) em um navegador web.
 
 ## Observações
 
